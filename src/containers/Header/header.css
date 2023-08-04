@@ -1,0 +1,7 @@
+.header {
+  text-align: center;
+  border: 3px dashed peru;
+  height: 150px;
+  background-color: rgba(6, 6, 41, 0.658);
+  margin: 0 0 10px 0;
+}

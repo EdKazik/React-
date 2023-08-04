@@ -1,0 +1,12 @@
+.main {
+  flex: 1 1 70%;
+  height: 400px;
+  background-color: #0b76a05d;
+  border: 2px dashed rgb(251, 255, 0);
+  margin: 0 10px 10px 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
