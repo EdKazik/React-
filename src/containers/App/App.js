@@ -14,7 +14,6 @@ function App() {
     <wrapper className='wrapper'>
       <Header/>
       <Container/>
-      
     </wrapper>
 
     
