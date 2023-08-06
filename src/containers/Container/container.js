@@ -1,14 +1,10 @@
 import './container.css'
-import Main from '../Main/main';
-import Aside from '../Aside/aside';
 
-
-const Container = () => {
+const Container = (props) => {
     
     return (
         <div className='container'>
-            <Aside/>
-            <Main/>
+            {props.children}
         </div>
     )
 }

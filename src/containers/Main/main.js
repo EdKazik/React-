@@ -1,11 +1,11 @@
 import './main.css';
-import Image from '../../images/5073165.jpg'
 
-const Main = () => {
+
+const Main = (props) => {
 
     return (
         <main className='main'>
-            <img src={Image} className='img' alt='photo'/>
+            {props.children}
         </main>
     )
 }

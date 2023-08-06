@@ -1,11 +1,11 @@
 import './header.css'
-import Header_text from '../../components/Header-text/header-text';
 
-const Header = () => {
+
+const Header = (props) => {
     
     return (
         <header className='header'>
-            <Header_text/>
+            {props.children}
         </header>
     )
 }
